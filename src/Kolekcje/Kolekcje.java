@@ -68,11 +68,7 @@ public class Kolekcje {
         }
         System.out.println();
     }
-    public static void main(String[] args) {
 
-        int rozmiar = osobyHashSet.size();
-        System.out.println("Number of names: " + rozmiar);
-        boolean isThereAnia = osobyHashSet.contains("Ania");
-        System.out.println("Is Ania in this set? " + isThereAnia);
+    public static void main(String[] args) {
 
 }}
