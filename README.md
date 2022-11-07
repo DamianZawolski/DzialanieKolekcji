@@ -1,5 +1,11 @@
 # DzialanieKolekcji
 Różnice w kolekcjach
 
-TreeSet- używa metody compareTo ()
-HashSet- używa  metody compare () i equals ()
+List- zawierają indeks
+ArrayList- lista utworzona na podstawie tablicy.
+LinkedList- lista utworzona na podstawie powiązań między elementami.
+
+Set- jedynie unikalne elementy
+TreeSet- używa metody compareTo (), jeśli chcemy niedomyślną kolejność tworzymy własny komparator
+HashSet- używa  metody compare () i equals (), zezwalna na dodanie null
+LinkedHashSet- pamięta kolejność wstawiania elementów
