@@ -27,18 +27,22 @@ public class Kolekcje {
         for (String s : osobyHashSet) {
             System.out.println(s);
         }
+        System.out.println();
         System.out.println("Iterowanie po TreeSet");
         for (String s : osobyHashSet) {
             System.out.println(s);
         }
+        System.out.println();
         System.out.println("Iterowanie po ArrayList");
         for (String s : osobyArrayList) {
             System.out.println(s);
         }
+        System.out.println();
         System.out.println("Iterowanie po LinkedList");
         for (String s : osobyArrayList) {
             System.out.println(s);
         }
+        System.out.println();
     }
     public static void wypiszOsoby() {
         System.out.println("Wypisanie osób");
