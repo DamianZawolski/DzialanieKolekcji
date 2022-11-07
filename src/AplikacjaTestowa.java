@@ -17,5 +17,6 @@ public class AplikacjaTestowa {
         Kolekcje.usunOsobe("Anna");
         Kolekcje.wypiszOsoby();
         Kolekcje.iterowanie();
+        Kolekcje.wypiszOsobyHashCode();
     }
 }

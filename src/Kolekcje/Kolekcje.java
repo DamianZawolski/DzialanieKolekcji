@@ -2,10 +2,12 @@ package Kolekcje;
 import java.util.*;
 
 public class Kolekcje {
+
     public static Set<String> osobyHashSet = new HashSet<>();
     public static Set<String> osobyTreeSet = new TreeSet<>();
     public static List<String> osobyArrayList = new ArrayList<>();
     public static List<String> osobyLinkedList = new LinkedList<>();
+
     public static void dodajOsobe(String imie) {
         osobyHashSet.add(imie);
         osobyTreeSet.add(imie);
@@ -53,22 +55,46 @@ public class Kolekcje {
         }
         System.out.println();
         System.out.println(osobyTreeSet.size()+ " Osób w TreeSet (alfabetycznie)");
-        for(String name: osobyTreeSet) {
-            System.out.println(name);
+        for(String osoba: osobyTreeSet) {
+            System.out.println(osoba);
         }
         System.out.println();
         System.out.println(osobyArrayList.size()+ " Osób w ArrayList");
-        for(String name: osobyArrayList) {
-            System.out.println(name);
+        for(String osoba: osobyArrayList) {
+            System.out.println(osoba);
         }
         System.out.println();
         System.out.println(osobyLinkedList.size()+ " Osób w LinkedList");
-        for(String name: osobyLinkedList) {
-            System.out.println(name);
+        for(String osoba: osobyLinkedList) {
+            System.out.println(osoba);
         }
         System.out.println();
     }
 
+    public static void wypiszOsobyHashCode() {
+        System.out.println("Wypisanie osób");
+        System.out.println();
+        System.out.println(osobyHashSet.size()+" Osób w HashSet");
+        for(String osoba: osobyHashSet) {
+            System.out.println(osoba.hashCode());
+        }
+        System.out.println();
+        System.out.println(osobyTreeSet.size()+ " Osób w TreeSet (alfabetycznie)");
+        for(String osoba: osobyTreeSet) {
+            System.out.println(osoba.hashCode());
+        }
+        System.out.println();
+        System.out.println(osobyArrayList.size()+ " Osób w ArrayList");
+        for(String osoba: osobyArrayList) {
+            System.out.println(osoba.hashCode());
+        }
+        System.out.println();
+        System.out.println(osobyLinkedList.size()+ " Osób w LinkedList");
+        for(String osoba: osobyLinkedList) {
+            System.out.println(osoba.hashCode());
+        }
+        System.out.println();
+    }
     public static void main(String[] args) {
 
 }}
