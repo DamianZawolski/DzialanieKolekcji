@@ -39,4 +39,5 @@ class AplikacjaReczna {
             System.out.println("Wystąpił błąd");
             run = false;
         }
+
 }}}
